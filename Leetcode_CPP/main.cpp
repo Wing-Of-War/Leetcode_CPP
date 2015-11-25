@@ -18,7 +18,8 @@ int main(int argc, const char * argv[]) {
     
     Solution my;
 //    bool result = my.charInString("abc", '1');
-    int result = my.lengthOfLongestSubstring("dvdf");
+//    int result = my.lengthOfLongestSubstring("dvdf");
+    int result = my.lengthOfLongestSubstring();
     
     
     return 0;
