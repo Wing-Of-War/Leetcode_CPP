@@ -8,8 +8,7 @@
 
 #include <iostream>
 #include <string>
-#include "ZigZagConversion6.cpp"
-
+#include "Longest Substring Without Repeating Characters 3.cpp"
 using std::string;
 using std::cout;
 
@@ -17,6 +16,9 @@ using std::cout;
 
 int main(int argc, const char * argv[]) {
     
+    Solution my;
+//    bool result = my.charInString("abc", '1');
+    int result = my.lengthOfLongestSubstring("dvdf");
     
     
     return 0;
