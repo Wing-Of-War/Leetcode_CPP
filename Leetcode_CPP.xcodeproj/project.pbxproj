@@ -10,6 +10,7 @@
 		2873BA571C05791B00C3B457 /* Longest Substring Without Repeating Characters 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2873BA561C05791B00C3B457 /* Longest Substring Without Repeating Characters 3.cpp */; };
 		4EDCA4F01C04B4F500086EE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCA4EF1C04B4F500086EE4 /* main.cpp */; };
 		4EDCA4F71C04B53900086EE4 /* ZigZagConversion6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCA4F61C04B53900086EE4 /* ZigZagConversion6.cpp */; };
+		4EE440F31C0969B000F9088E /* Add Two Numbers2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EE440F21C0969B000F9088E /* Add Two Numbers2.cpp */; settings = {ASSET_TAGS = (); }; };
 		4EF77D721C04DD1800D6144F /* TwoSum1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EF77D701C04DD1800D6144F /* TwoSum1.cpp */; };
 		4EF77D741C04DDC200D6144F /* ReverseInteger7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EF77D731C04DDC200D6144F /* ReverseInteger7.cpp */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		4EDCA4EC1C04B4F500086EE4 /* Leetcode_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDCA4EF1C04B4F500086EE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EDCA4F61C04B53900086EE4 /* ZigZagConversion6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZagConversion6.cpp; sourceTree = "<group>"; };
+		4EE440F21C0969B000F9088E /* Add Two Numbers2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Add Two Numbers2.cpp"; sourceTree = "<group>"; };
 		4EF77D701C04DD1800D6144F /* TwoSum1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum1.cpp; sourceTree = "<group>"; };
 		4EF77D731C04DDC200D6144F /* ReverseInteger7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger7.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				4EF77D701C04DD1800D6144F /* TwoSum1.cpp */,
 				4EF77D731C04DDC200D6144F /* ReverseInteger7.cpp */,
 				2873BA561C05791B00C3B457 /* Longest Substring Without Repeating Characters 3.cpp */,
+				4EE440F21C0969B000F9088E /* Add Two Numbers2.cpp */,
 			);
 			path = Leetcode_CPP;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			files = (
 				4EF77D721C04DD1800D6144F /* TwoSum1.cpp in Sources */,
 				4EF77D741C04DDC200D6144F /* ReverseInteger7.cpp in Sources */,
+				4EE440F31C0969B000F9088E /* Add Two Numbers2.cpp in Sources */,
 				4EDCA4F71C04B53900086EE4 /* ZigZagConversion6.cpp in Sources */,
 				4EDCA4F01C04B4F500086EE4 /* main.cpp in Sources */,
 				2873BA571C05791B00C3B457 /* Longest Substring Without Repeating Characters 3.cpp in Sources */,

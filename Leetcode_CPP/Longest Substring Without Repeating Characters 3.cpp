@@ -18,30 +18,59 @@ using std::string;
 
 class Solution {
 public:
+    
+    //Better way.
     int lengthOfLongestSubstring(string s) {
-        string findString;
+        if (s.length() == 0 || s.length() == 1)
+            return (int)s.length();
+        size_t start=0, end = 1, result = 1;
         size_t length = s.length();
-        int result = 0, temp = 0;
-        for (size_t index = 0; index < length; index++) {
-            char c = s[index];
-            int indexOfCharInFindString = charInString(findString, c);
-            if (indexOfCharInFindString >= 0) {
-                if (temp > result) {
-                    result = temp;
+        size_t temp;
+        while (end < length) {
+            
+            bool contain = false;
+            temp = start;
+            while (temp < end) {
+                if (s[temp] == s[end]) {
+                    contain = true;
+                    break;
                 }
-                index = index - temp + indexOfCharInFindString;
-                temp = 0;
-                findString.clear();
-                continue;
+                temp ++ ;
             }
-            findString += c;
-            temp ++;
+            if (contain) {
+                start = temp + 1;
+            }
+            result = end - start + 1 > result ? end - start + 1 : result;
+            end++;
         }
-        if (temp > result) {
-            result = temp;
-        }
-        return result;
-    }
+        return (int)result;
+    };
+    
+    
+//    int lengthOfLongestSubstring(string s) {
+//        string findString;
+//        size_t length = s.length();
+//        int result = 0, temp = 0;
+//        for (size_t index = 0; index < length; index++) {
+//            char c = s[index];
+//            int indexOfCharInFindString = charInString(findString, c);
+//            if (indexOfCharInFindString >= 0) {
+//                if (temp > result) {
+//                    result = temp;
+//                }
+//                index = index - temp + indexOfCharInFindString;
+//                temp = 0;
+//                findString.clear();
+//                continue;
+//            }
+//            findString += c;
+//            temp ++;
+//        }
+//        if (temp > result) {
+//            result = temp;
+//        }
+//        return result;
+//    }
     
     int charInString(string s, char checkChar) {
         int result = -1;
